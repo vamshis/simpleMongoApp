@@ -1,4 +1,8 @@
 simpleMongoApp
 ==============
+route: /
+  opens the connection to db and saves the user details in app.js to db.
 
-saves user details in app.js to db and displays all the results from the db.
+
+route: /users
+  displays all the results from the db and closes the connection to db.
